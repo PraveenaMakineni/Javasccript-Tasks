@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM valdnss</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/Formvaldns.js"></script>
+</head>
+
+<body>
+
+    <!--Bootstrap Forms-->
+
+    <div class="container p-5 w-50">
+        <form action="themes1.html" onsubmit="return form_validations()" novalidate style="background-color:gray; color: blanchedalmond;">
+         
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" id="uname" required />
+                <span id="uname_err"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+                <span id="email_err"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="text" class="form-control" id="pwd" />
+                <span id="pwd_err"></span>
+            </div> 
+
+            <div class="mb-3">
+                <label class="form-label">Address</label>
+                <textarea rows="5" cols="70" id="txt"></textarea>
+                <span id="texterr"></span>
+            </div>
+
+            <div class="mb-3">
+                    <select id="choose1" style="width: 50%;">
+                    <option value="">select an option</option>
+                    <option value="India">India</option>
+                    <option>USA</option>
+                    <option>Other</option>
+                    </select>
+                    <span id="cherr"></span>
+            </div>
+            <br/>
+            <!----radio button-->
+            <p>Do you want to renew your membership</p>
+               yes<input type="radio" value="yes" id="ry" name="renew" /><br/>
+               no<input type="radio" value="no" id="rn" name="renew" /><br/>
+              <span id="ryerr"></span><br />
+
+             
+            <!----radio button--->
+
+            <!----checkbox button-->
+            <p>Select a Technology:</p>
+            JS<input type="checkbox" id="js" value="JS"/>
+            REACT JS<input type="checkbox" id="reactjs" value="ReactJS"/>
+            NODE JS<input type="checkbox" id="nodejs" value="NodeJS"/>
+            ANGULAR JS<input type="checkbox" id="angularjs" value="AngularJS"/><br />
+
+
+            <span id="err"></span> <br />
+            <!----checkbox button-->
+             
+            <!----file uploading-->
+            <label>Image Upload:</label>
+            <input type="file" id="filep"><br />
+            <span id="file_err"></span>
+           <!---- <button type="submit" value="submit">File validation</button>  --->
+            <!----file uploading-->
+
+
+
+            <br />
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Validate</button>
+            </div>
+
+
+        </form>
+
+    </div>
+    <!--Bootstrap Forms-->
+
+</body>
+
+</html>

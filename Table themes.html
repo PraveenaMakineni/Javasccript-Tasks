@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TABLE-THEME</title>
+    <script src="js/myatsk.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        var tablet = () => {
+            
+         var tabb =  document.getElementById('tableid');
+         var them = document.getElementById("themeselect").value;
+
+            switch(them){
+                case "tt1" :   tabb.className = "tt1 table-bordered" ; break ;
+                case "tt2" :   tabb.className = "tt2 table-bordered" ; break ;
+                case "tt3" :   tabb.className = "tt3 table-bordered" ; break ;
+                case "tt4" :   tabb.className = "tt4 table-bordered" ; break ;
+                default :      tabb.className = "tt1 table-bordered" ; break ;
+            }
+        }
+    </script>
+    <style>
+        .tablecls{
+            border: 1px solid black;
+            background-color: aliceblue;
+            color:rgb(175, 175, 79);
+         
+        }
+        .switch{
+            background:grey;
+            height: 50px;
+            width: 37%;
+            border-radius: 40%;
+            display: block;
+            margin: auto;
+        }
+        tr {
+            text-align: center;
+        
+        }
+        .tt1{
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        
+        .tt1 th{
+            background: #000;
+        }
+        .tt1 td{
+            background: rgb(82, 84, 85);
+        }
+
+        .tt2{
+
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+        
+        .tt2 th{
+            background: rgb(30, 105, 110);
+        }
+        .tt2 td{
+            background: rgb(11, 232, 248);
+        }
+        .tt3{
+
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        .tt3 th{
+            background: palevioletred;
+        }
+        .tt3 td{
+            background: lightpink;
+        }
+        .tt4{
+
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        .tt4 th{
+            background: rgb(189, 189, 47);
+        }
+        .tt4 td{
+            background: rgb(211, 211, 135);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h3 class="text-center">=======TABLE THEME=======</h3><br >
+    <div class="switch">
+        <label class="p-2">Select Table Theme: </label>
+        <select id="themeselect">
+            <option value="tt1">Theme 1</option>
+            <option value="tt2">Theme 2</option>
+            <option value="tt3">Theme 3</option>
+            <option value="tt4">Theme 4</option>
+            <option value="tt5">Default theme</option>
+        </select>
+       <button onclick="tablet()">Apply theme</button>
+    </div><br /> <br />
+
+    <p class="text-center"> A table with people's health info in certain states of India </p>
+    <table id="tableid" class="tablecls table-bordered mx-auto">
+        <tr class="bg-primary text-warning">
+            <th> s.no </th>
+            <th> state </th>
+            <th> country </th>
+            <th> healthy people </th>
+            <th> recovering people </th>
+            <th> year </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>AP</td>
+            <td>India</td>
+            <td>123456</td>
+            <td>1234</td>
+            <td>2020</td>
+
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>AP</td>
+            <td>India</td>
+            <td>123456</td>
+            <td>1234</td>
+            <td>2020</td> 
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>AP</td>
+            <td>India</td>
+            <td>123456</td>
+            <td>1234</td>
+            <td>2020</td>      
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>AP</td>
+            <td>India</td>
+            <td>123456</td>
+            <td>1234</td>
+            <td>2020</td>      
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>AP</td>
+            <td>India</td>
+            <td>123456</td>
+            <td>1234</td>
+            <td>2020</td>      
+        </tr>
+        
+        <tr>
+            <td>6</td>
+            <td>AP</td>
+            <td>India</td>
+            <td>123456</td>
+            <td>1234</td>
+            <td>2020</td>       
+        </tr>
+    </table>
+
+</body>
+</html>

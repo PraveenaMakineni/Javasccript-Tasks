@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: auto;
+    
+}
+.row{
+    background-color:lightblue;
+    height: 400px;
+    width: 100%; 
+}

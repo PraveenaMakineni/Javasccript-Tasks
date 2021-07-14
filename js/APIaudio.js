@@ -1,0 +1,97 @@
+var audio=[{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},
+{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+},{
+    image:"https://tse4.mm.bing.net/th?id=OIP.8DQRUBjF73JGyBIBpLyUgQHaEZ&pid=Api&P=0&w=290&h=173",
+    title:"TEMPER",
+   audioclip:"js/temper.mp3"
+}]
